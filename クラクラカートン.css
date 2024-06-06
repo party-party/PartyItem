@@ -55,21 +55,20 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
-    padding: 40px;
+    gap: 0; /* 画像間の隙間をなくす */
+    padding: 0; /* パディングを0に設定 */
 }
 
-.gallery-item {
-    width: 80%;
-    height: 300px;
-    background-color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    color: #fff;
-    border: 2px solid #555;
+.product-gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0; /* マージンを0に設定 */
+    padding: 0; /* パディングを0に設定 */
+    display: block; /* 隙間をなくすためにdisplay: blockを設定 */
+    border: none; /* 境界線を削除 */
 }
+
 
 .features {
     padding: 40px;
@@ -83,21 +82,24 @@ nav a {
 .cta {
     text-align: center;
     padding: 40px;
-    background-color: #111;
+    background-color: #000000;
 }
 
 .cta-button {
     font-size: 24px;
-    padding: 10px 20px;
-    background-color: #ff4081;
+    padding: 20px 40px;
+    background-color: #ff4081; /* 元の背景色 */
     color: #fff;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
+    border-radius: 50%; /* ボタンを丸くする */
+    background: linear-gradient(45deg, #ff0000, #800080); /* ネオン管のある赤と紫 */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.7), 0 0 20px rgba(128, 0, 128, 0.7); /* ネオン効果のシャドウ */
 }
 
 .cta-button:hover {
-    background-color: #ff79b0;
+    background: linear-gradient(45deg, #800080, #ff0000); /* ホバー時の色変更 */
 }
 
 footer {
@@ -111,4 +113,25 @@ footer {
     color: #ff4081;
     text-decoration: none;
     margin: 0 10px;
+}
+
+/* モバイルスタイル */
+@media (max-width: 599px) {
+    .hero {
+        height: 300px;
+    }
+
+    .hero-text {
+        font-size: 32px;
+    }
+
+    .product-gallery img {
+        max-width: 100%;
+        border: none;
+    }
+
+    .cta-button {
+        padding: 15px 30px;
+        font-size: 20px;
+    }
 }
