@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header, .footer {
+    text-align: center;
+}
+
+.header-image, .footer-image {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.content-block {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.content-image {
+    width: 100%;
+    height: auto;
+}
+
+.content-text {
+    margin-top: 10px;
+    text-align: center;
+}
