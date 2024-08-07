@@ -1,57 +1,11 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: serif;
     background-color: #000;
     color: #fff;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #111;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
-    background-color: #222;
-    position: relative;
-    background-image: url('placeholder.jpg'); /* ここに画像を追加 */
-    background-size: cover;
-    background-position: center;
-}
-
-.hero-text {
-    text-align: center;
-    font-size: 48px;
-    font-weight: bold;
-    color: #fff;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-}
-
-.product-gallery {
+.product-gallery-01 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,61 +13,92 @@ nav a {
     padding: 0; /* パディングを0に設定 */
 }
 
-.product-gallery img {
+.product-gallery-01 img {
     width: 100%;
-    max-width: 300px;
+    /* max-width: 300px; */
     height: auto;
-    margin: 0; /* マージンを0に設定 */
+    margin-top: 30px; /* マージンを0に設定 */
     padding: 0; /* パディングを0に設定 */
     display: block; /* 隙間をなくすためにdisplay: blockを設定 */
     border: none; /* 境界線を削除 */
 }
 
-
-.features {
-    padding: 40px;
-    text-align: center;
+.product-gallery-02 .gallery-left {
+    width: 70%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-bottom: 40px;
 }
 
-.feature {
-    margin-bottom: 20px;
+
+
+.product-gallery-03 img{
+    width: 70%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 40px;
 }
 
-.cta {
-    text-align: center;
-    padding: 40px;
-    background-color: #000000;
-}
-
-.cta-button {
-    font-size: 24px;
-    padding: 20px 40px;
-    background-color: #ff4081; /* 元の背景色 */
+.FirstViewText{
     color: #fff;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    border-radius: 50%; /* ボタンを丸くする */
-    background: linear-gradient(45deg, #ff0000, #800080); /* ネオン管のある赤と紫 */
-    box-shadow: 0 0 10px rgba(255, 0, 0, 0.7), 0 0 20px rgba(128, 0, 128, 0.7); /* ネオン効果のシャドウ */
-}
-
-.cta-button:hover {
-    background: linear-gradient(45deg, #800080, #ff0000); /* ホバー時の色変更 */
-}
-
-footer {
     text-align: center;
     padding: 20px;
-    background-color: #111;
-    color: #fff;
+    overflow-wrap:  break-word;
 }
 
-.social-media a {
-    color: #ff4081;
-    text-decoration: none;
-    margin: 0 10px;
+.SecondContents img{
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 20px rgba(255, 147, 222, .1);
 }
+
+.product-gallery-04 {
+    text-align: center;
+}
+
+
+.product-gallery-04 {
+    display: flex;
+}
+
+.product-gallery-04 img {
+    width: 100%;
+}
+
+.text {
+    clear: both;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+
+
+a.btn01 {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 120px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	background-image: linear-gradient(to right, #d927a4 0%, #6c83eb 100%);
+	border-radius: 100vh;
+	color: #fff;
+	border: 2px solid #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+	transition: 0.5s;
+    margin-bottom: 70px;
+}
+a.btn01:hover {
+	color: #fff;
+	background-image: linear-gradient(to left, #27acd9 0%, #b4e12b 100%);
+}
+
+
 
 /* モバイルスタイル */
 @media (max-width: 599px) {
@@ -133,12 +118,5 @@ footer {
     .cta-button {
         padding: 15px 30px;
         font-size: 20px;
-
-    }
-}
-
-@media (min-width: 600px) {
-    .product-gallery img {
-        max-width: 600px; /* PC画面では画像を大きくする */
     }
 }
