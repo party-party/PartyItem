@@ -16,7 +16,6 @@ body {
 
 .product-gallery-01 img {
     width: 100%;
-    max-width: 600px;
     height: auto;
     margin-top: 30px; /* マージンを0に設定 */
     padding: 0; /* パディングを0に設定 */
