@@ -119,8 +119,5 @@ a.btn01:hover {
         font-size: 20px;
     }
 
-    .SecondContents img{
-	border-radius: 20px;
-	box-shadow: 0px 0px 18px 18px rgba(255, 147, 222, .1);
-    }
+
 }
