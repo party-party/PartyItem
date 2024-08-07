@@ -24,7 +24,7 @@ body {
 }
 
 .product-gallery-02 .gallery-left {
-    width: 60%;
+    width: 80%;
     height: auto;
     float: left;
     display: flex;
@@ -37,7 +37,7 @@ body {
 
 
 .product-gallery-03 img{
-    width: 60%;
+    width: 80%;
     height: auto;
     float: right;
     display: flex;
