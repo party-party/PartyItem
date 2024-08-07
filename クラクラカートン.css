@@ -53,17 +53,15 @@ body {
 
 .SecondContents img{
     border-radius: 20px;
-    box-shadow: 0px 0px 20px 20px rgba(255, 147, 222, .1);
+    box-shadow: 0px 0px 18px 18px rgba(255, 147, 222, .1);
 }
 
 .product-gallery-04 {
     text-align: center;
-}
-
-
-.product-gallery-04 {
     display: flex;
+    gap: 20px;
 }
+
 
 .product-gallery-04 img {
     width: 100%;
