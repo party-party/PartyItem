@@ -31,9 +31,12 @@ a.btn01:hover {
 
 /* モバイルスタイル */
 @media (max-width: 599px) {
-    .hero {
-        height: 300px;
-    }
+    body {
+    max-width: 599px;
+    margin: 0 auto;
+    background-color: #000;
+    color: #fff;
+}
 
     .hero-text {
         font-size: 32px;
