@@ -1,5 +1,5 @@
 body {
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
     background-color: #000;
     color: #fff;
@@ -9,7 +9,7 @@ a.btn01 {
 	display: block;
 	text-align: center;
 	text-decoration: none;
-	width: 120px;
+	width: 500px;
 	margin: auto;
 	padding: 1rem 4rem;
 	font-weight: bold;
