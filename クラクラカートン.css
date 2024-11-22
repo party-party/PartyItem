@@ -5,11 +5,17 @@ body {
     color: #fff;
 }
 
+img{
+	max-width: 800px
+	margin: 0 auto;
+}
+
+
 a.btn01 {
 	display: block;
 	text-align: center;
 	text-decoration: none;
-	width: 500px;
+	width: 120px;
 	margin: auto;
 	padding: 1rem 4rem;
 	font-weight: bold;
