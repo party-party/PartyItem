@@ -1,88 +1,9 @@
 body {
-    max-width: 600px;
+    max-width: 1200px;
     margin: 0 auto;
-    font-family: serif;
     background-color: #000;
     color: #fff;
 }
-
-.product-gallery-01 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0; /* 画像間の隙間をなくす */
-    padding: 0; /* パディングを0に設定 */
-}
-
-.product-gallery-01 img {
-    width: 100%;
-    height: auto;
-    margin-top: 30px; /* マージンを0に設定 */
-    padding: 0; /* パディングを0に設定 */
-    display: block; /* 隙間をなくすためにdisplay: blockを設定 */
-    border: none; /* 境界線を削除 */
-}
-
-.product-gallery-02 .gallery-left {
-    width: 80%;
-    height: auto;
-    float: left;
-    display: flex;
-    flex-direction: column;
-    margin-right: 10px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-}
-
-
-
-.product-gallery-03 img{
-    width: 80%;
-    height: auto;
-    float: right;
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    margin-right: 20px;
-    margin-bottom: 40px;
-}
-
-.FirstViewText{
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    overflow-wrap:  break-word;
-}
-
-.SecondContents img{
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px 10px rgba(255, 147, 222, .1);
-}
-
-.product-gallery-04 {
-    text-align: center;
-    display: flex;
-    gap: 10px;
-    
-}
-
-
-
-.product-gallery-04 img {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    margin: 20px,0,o,20px;
-    
-}
-
-.text {
-    clear: both;
-    text-align: center;
-    margin-bottom: 80px;
-}
-
-
 
 a.btn01 {
 	display: block;
